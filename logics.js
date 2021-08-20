@@ -9,7 +9,7 @@ const createTodoItem = ({ id, task, deadline, done }) => {
   let deleteBtn = document.createElement("img");
   deleteBtn.id = `${id}`; // задаем уникальный id
   deleteBtn.className = "deleteBtn";
-  deleteBtn.src = "delete.png";
+  deleteBtn.src = "/delete.png";
   deleteBtn.addEventListener("click", onDelete);
   // onDelete 56 строка
 
